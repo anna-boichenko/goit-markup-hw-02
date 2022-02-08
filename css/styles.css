@@ -1,0 +1,200 @@
+/*Переменные цветов*/
+:root {
+  --main-color: #ffffff;
+  --secondary-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --secondary-font-color: #757575;
+  --main-font-color: #212121;
+  --secondary-background: #2f303a;
+  --logo-color: #000000;
+  --hover-button: #188ce8;
+}
+
+/*Основные значения для страницы*/
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-font-color);
+  background-color: var(--main-color);
+}
+.list {
+  list-style: none;
+}
+
+/*Шапка страницы*/
+.link-header {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.link-header:hover,
+.link-header:focus {
+  color: var(--accent-color);
+}
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.studio-logo-header {
+  color: var(--logo-color);
+}
+.menu {
+  color: var(--main-font-color);
+}
+.menu.current {
+  color: var(--accent-color);
+}
+.contacts-header {
+  color: var(--secondary-font-color);
+}
+
+/*Основная часть страницы*/
+.hero {
+  background-color: var(--secondary-background);
+}
+.hero-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--main-color);
+}
+.button-order {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--hover-button);
+}
+
+/*Главные принципы работы*/
+.principles-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.priciples-paragraph {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+/*Стили второго заголовка*/
+.secondary-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Команда*/
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-members {
+  background-color: var(--main-color);
+}
+.member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
+
+/*Футер*/
+.footer {
+  background-color: var(--secondary-background);
+}
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.studio-logo-footer {
+  color: var(--main-color);
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.contacts-footer {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+  text-decoration: none;
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accent-color);
+}
+
+/*Фильтры-кнопки в портфолио*/
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-font-color);
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--main-color);
+  background-color: var(--accent-color);
+}
+
+/*Примеры работ*/
+.work-examples {
+  background-color: var(--main-color);
+}
+.work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-type {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-font-color);
+}
