@@ -8,6 +8,7 @@
   --secondary-background: #2f303a;
   --logo-color: #000000;
   --hover-button: #188ce8;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 /*Основные значения для страницы*/
@@ -152,11 +153,11 @@ body {
   color: var(--main-color);
 }
 .contacts-footer {
-  font-family: inherit;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--secondary-font-color);
+  color: var(--contacts-footer-color);
   text-decoration: none;
 }
 .contacts-footer:hover,
